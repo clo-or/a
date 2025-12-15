@@ -59,7 +59,7 @@ st.header("워드클라우드와 네트워크 시각화는 뉴스의 글로 진�
 st.subheader('seaborn 상위 언급 단어이다.')
 st.text("애니메이션, 전통과 체험이 가장 상위인 것을 보아 애니메이션 영화를 통해 한국의 전통을 체험할 수 있다는 경험이 팬덤 형성에 영향을 준 것으로 예측된다.")
 if st.button('seaborn 상위 언급 단어'):
-    st.image("top_word_frequency.png.png", use_container_width=True)
+    st.image("top_word_frequency.png", use_container_width=True)
 
 
 
