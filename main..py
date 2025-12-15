@@ -26,6 +26,8 @@ st.title("C321050 이승아 데이터 시각화 3차 시험")
 
 # :blue[위젯]
 
+st.image("data/heart_mask.png", use_container_width=True)
+
 ### : orange [다운로드 버튼: st.download_button()]
 with open("data/heart_mask.png", "rb") as file:
     st.download_button(
