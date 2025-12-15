@@ -64,7 +64,7 @@ if st.button('seaborn 상위 언급 단어'):
 
 import streamlit.components.v1 as components
 
-st.caption("altair plotly 그래프는 뉴스의 내용으로 진행하였다.")
+st.caption("altair plotly 그래프는 뉴스의 날짜로 진행하였다.")
 
 st.subheader('뉴스에서 언급된 날짜 수이다.')
 st.text("2025.6.4일을 기준으로 시작되었고, 가장 두드러지는 변화는 8.20, 10.23, 11.21에 보였다")
