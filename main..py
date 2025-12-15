@@ -30,7 +30,7 @@ st.title("C321050 이승아 데이터 시각화 3차 시험")
 with open("data/heart_mask.png", "rb") as file:
     st.download_button(
         label='이미지 파일 다운로드',  # 버튼 라벨
-        data=file,                    # 다운로드할 파일 경로
+        data="data/heart_mask.png",                    # 다운로드할 파일 경로
         file_name='image.png',        # 다운로드 파일명
         mime='image/png'              # 파일 형식
     )
