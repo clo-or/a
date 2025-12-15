@@ -62,6 +62,7 @@ st.text("애니메이션, 전통과 체험이 가장 상위인 것을 보아 애
 if st.button('seaborn 상위 언급 단어'):
     st.image("data/top_word_frequency.png", use_container_width=True)
 
+import streamlit.components.v1 as components
 
 st.caption("altair plotly 그래프는 뉴스의 내용으로 진행하였다.")
 
