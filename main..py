@@ -44,7 +44,7 @@ st.header('네트워크 이미지')
 
 st.subheader('기본 네트워크 이미지이다.')
 st.text('음식(떡볶이, 김밥, 라면)등이 대체적으로 이어져있고, 라이프스타일, 전통, 호랑이, 관광등이 형성되어있는 것을 보아, 대표적인 한국 라이프스타일과 문화를 볼 수 있는 영화가 팬덤 형성의 핵심 요인이 되었다는 것을 확인할 수 있다.')
-st.button('네트워크 시각화 이미지'):
+if st.button('네트워크 시각화 이미지'):
     st.image("data/naver_news_network.png", use_container_width=True)
 
 st.subheader('네트워크 원형 이미지이다.')
