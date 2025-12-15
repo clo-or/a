@@ -23,7 +23,7 @@ st.set_page_config(
 
 # 타이틀 텍스트 출력
 st.title("C321050 이승아 데이터 시각화 3차 시험")
-
+st.header("워드클라우드와 네트워크 시각화는 뉴스의 제목으로만 진행하였다.")
 
 st.header('워드클라우드 이미지')
 
@@ -53,9 +53,15 @@ st.text('위에서 언급했던 것과 같이 음식, 전통 등 한국의 라�
 
 if st.button('네트워크 시각화 이미지 원형'):
     st.image("data/naver_news_circle_network.png", use_container_width=True)
-
-
-
+st.text('음식(떡볶이, 김밥, 라면)등이 대체적으로 이어져있고, 라이프스타일, 전통, 호랑이, 관광등이 형성되어있는 것을 보아, 대표적인 한국 라이프스타일과 문화를 볼 수 있는 영화가 팬덤 형성의 핵심 요인이 되었다는 것을 확인할 수 있다.')
+if st.button('네트워크 시각화 이미지'):
+    st.image("data/naver_news_network.png", use_container_width=True)
+             
+st.header("워드클라우드와 네트워크 시각화는 뉴스의 글로 진행하였다.")
+st.subheader('seaborn 상위 언급 단어이다.')
+st.text('애니메이션, 전통과 체험이 가장 상위인 것을 보아 애니메이션 영화를 통해 한국의 전통을 체험할 수 있다는 경험이 팬덤 형성에 영향을 준 것으로 예측된다.")
+if st.button('seaborn 상위 언급 단어'):
+    st.image("top_word_frequency.png.png", use_container_width=True)
 
 
 
