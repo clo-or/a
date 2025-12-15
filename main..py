@@ -32,7 +32,7 @@ if st.button('워드클라우드 이미지 기본'):
     st.image("data/wordcloud_square.png", use_container_width=True)
 
 st.subheader('워드클라우드 도형 이미지이다.')
-st.caption('데이터 분석의 중요하진 않다. 시각화의 미적요소를 위해 완성하였다.')
+st.caption('데이터 분석 관점에서 필요하진 않으나 시각화의 미적요소를 위해 완성하였다.')
 if st.button('워드클라우드 이미지 하트'):
     st.image("data/wordcloud.png", use_container_width=True)
 
