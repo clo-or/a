@@ -75,3 +75,9 @@ with open("data/wordcloud_square.png", "rb") as file:
         file_name='cloud_square.png',        # 다운로드 파일명
         mime='image/png'              # 파일 형식
     )
+
+st.header('1. Button')
+if st.button('Say hello'):
+    st.write('HELL_O')
+else :
+    st.write('Bye_Die')
