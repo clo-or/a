@@ -26,13 +26,13 @@ st.title("C321050 이승아 데이터 시각화 3차 시험")
 
 # :blue[위젯]
 
-st.image("data/heart_mask.png", use_container_width=True)
+st.image("data/naver_news_network.png", use_container_width=True)
 
 ### : orange [다운로드 버튼: st.download_button()]
 with open("data/heart_mask.png", "rb") as file:
     st.download_button(
         label='이미지 파일 다운로드',  # 버튼 라벨
-        data="data/heart_mask.png",                    # 다운로드할 파일 경로
+        data="data/naver_news_network.png",                    # 다운로드할 파일 경로
         file_name='image.png',        # 다운로드 파일명
         mime='image/png'              # 파일 형식
     )
