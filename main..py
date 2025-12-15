@@ -38,7 +38,7 @@ if st.button('워드클라우드 이미지 하트'):
 
 primary_button = st.button('케이팝 데몬 헌터스 헌트릭스 golden', type='primary')
 if primary_button:
-    st.audio("data/Golden_Official_Lyric_Video_KPop_Demon_Hunters_Sony_Animation.mp3", format="audio/mpeg", loop=True)
+    st.audio("data/golden.mp3")
 
 st.header('네트워크 이미지')
 
