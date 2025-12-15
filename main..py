@@ -13,4 +13,12 @@ st.set_page_config(  # 페이지 설정
         'About': "## C321050 이승아"
     }
 )
+st.set_page_config(
+    page_title="Streamlit",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
+
+# 타이틀 텍스트 출력
+st.title("C321050 이승아 데이터 시각화 3차 시험")
