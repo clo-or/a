@@ -36,9 +36,9 @@ st.caption('데이터 분석의 중요하진 않다. 시각화의 미적요소�
 if st.button('워드클라우드 이미지 하트'):
     st.image("data/wordcloud.png", use_container_width=True)
 
-primary_button = st.button('케이팝 데몬 헌터스 헌트릭스 노래', type='primary')
+primary_button = st.button('케이팝 데몬 헌터스 헌트릭스 golden', type='primary')
 if primary_button:
-    st.audio("./After_You.mp3", format="audio/mpeg", loop=True)
+    st.audio("Golden Official Lyric Video KPop Demon Hunters Sony Animation.mp3", format="audio/mpeg", loop=True)
 
 st.header('네트워크 이미지')
 
