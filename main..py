@@ -56,7 +56,7 @@ if st.button('네트워크 시각화 이미지 원형'):
     st.image("data/naver_news_circle_network.png", use_container_width=True)
 
              
-st.caption("그래프는 뉴스의 내용으로 진행하였다.")
+st.caption("seaborn 그래프는 뉴스의 내용으로 진행하였다.")
 st.subheader('seaborn 상위 언급 단어이다.')
 st.text("애니메이션, 전통과 체험이 가장 상위인 것을 보아 애니메이션 영화를 통해 한국의 전통을 체험할 수 있다는 경험이 팬덤 형성에 영향을 준 것으로 예측된다.")
 if st.button('seaborn 상위 언급 단어'):
