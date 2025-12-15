@@ -79,5 +79,4 @@ with open("data/wordcloud_square.png", "rb") as file:
 st.header('1. Button')
 if st.button('Say hello'):
     st.write('HELL_O')
-else :
-    st.write('Bye_Die')
+
