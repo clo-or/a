@@ -23,22 +23,24 @@ st.set_page_config(
 # 타이틀 텍스트 출력
 st.title("C321050 이승아 데이터 시각화 3차 시험")
 
-st.header('1. Button')
+
+st.header('워드클라우드 이미지 1')
+if st.button('워드클라우드 이미지 기본'):
+    st.image("data/wordcloud_square.png", use_container_width=True)
+
+st.header('워드클라우드 이미지 2')
+if st.button('워드클라우드 이미지 하트'):
+    st.image("data/wordcloud.png", use_container_width=True)
+    
+st.header('네트워크 이미지 1')
 if st.button('네트워크 시각화 이미지 기본'):
     st.image("data/naver_news_network.png", use_container_width=True)
 
-st.header('1. Button')
+st.header('네트워크 이미지 2')
 if st.button('네트워크 시각화 이미지 원형'):
     st.image("data/naver_news_circle_network.png", use_container_width=True)
 
 
-st.header('1. Button')
-if st.button('워드클라우드 이미지 기본'):
-    st.image("data/wordcloud_square.png", use_container_width=True)
-
-st.header('1. Button')
-if st.button('워드클라우드 이미지 원형'):
-    st.image("data/wordcloud.png", use_container_width=True)
 
 
 
