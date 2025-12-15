@@ -27,7 +27,7 @@ st.title("C321050 이승아 데이터 시각화 3차 시험")
 st.header('워드클라우드 이미지')
 
 st.subheader('워드클라우드 이미지이다.')
-st.text('이를 통해 한국 관람, 음식, 영화 내 아이돌 그룹 (헌트릭스)이 핵심 요인임을 볼 수 있다.')
+st.text('이를 통해 한국 관람, 음식 등 한국의 문화와 영화 내 아이돌 그룹 (헌트릭스), 빌보드 (노래) 등 잘 만들어진 영화 내 노래가 핵심 요인임을 볼 수 있다.')
 if st.button('워드클라우드 이미지 기본'):
     st.image("data/wordcloud_square.png", use_container_width=True)
 
@@ -35,13 +35,15 @@ st.subheader('워드클라우드 도형 이미지이다.')
 st.caption('데이터 분석의 중요하진 않다. 시각화의 미적요소를 위해 완성하였다.')
 if st.button('워드클라우드 이미지 하트'):
     st.image("data/wordcloud.png", use_container_width=True)
-    
+
+primary_button = st.button('케이팝 데몬 헌터스 헌트릭스 노래', type='primary')
+if primary_button:
+    st.audio("./After_You.mp3", format="audio/mpeg", loop=True)
 
 st.header('네트워크 이미지')
 
 st.subheader('기본 네트워크 이미지이다.')
-st.text('음식(떡볶이, 김밥, 라면)등이 대체적으로 이어져있고, 라이프스타일, 전통, 호랑이, 관광등이 형성되어있는 것을 보아, 대표적인 한국 라이프스타일과 문화를 볼 수 있는 영화가 팬덤 형성의 핵심 요인이 되었다는 것을 확인할 수 있다.')
-if st.button('네트워크 시각화 이미지 기본'):
+st.text('음식(떡볶이, 김밥, 라면)등이 대체적으로 이어져있고, 라이프스타일, 전통, 호랑이, 관광등이 형성되어있는 것을 보아, 대표적인 한국 라이프스타일과 문화를 볼 수 있는 영화가 팬덤 형성의 핵심 요인이 되었다는 것을 확인할 수 있다.')st.button('네트워크 시각화 이미지 기본'):
     st.image("data/naver_news_network.png", use_container_width=True)
 
 
