@@ -63,5 +63,20 @@ if st.button('seaborn 상위 언급 단어'):
     st.image("data/top_word_frequency.png", use_container_width=True)
 
 
+st.caption("altair plotly 그래프는 뉴스의 내용으로 진행하였다.")
 
+st.subheader('뉴스에서 언급된 날짜 수이다.')
+st.text("2025.6.4일을 기준으로 시작되었고, 가장 두드러지는 변화는 8.20, 10.23, 11.21에 보였다")
+# 버튼 ai 도움
+if st.button('날짜별 뉴스 수 그래프 plotly'):
+    with open('./html/article_trend_plotly.html', 'r', encoding='utf-8') as f:
+        html = f.read()
+    components.html(html, height=600)
 
+st.subheader('뉴스에서 언급된 날짜 수이다.')
+st.text("같은 데이터를 사용했기 때문에 같은 형태의 뉴스량 변화를 볼 수 있다")
+# 버튼 ai 도움
+if st.button('날짜별 뉴스 수 그래프 altair'):
+    with open('./html/article_trend_altair.html', 'r', encoding='utf-8') as f:
+        html = f.read()
+    components.html(html, height=600)
