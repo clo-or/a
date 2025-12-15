@@ -45,7 +45,7 @@ st.image("data/wordcloud.png", use_container_width=True)
 with open("data/wordcloud.png", "rb") as file:
     st.download_button(
         label='이미지 파일 다운로드',  # 버튼 라벨
-        data="data/wordcloud.png,                    # 다운로드할 파일 경로
+        data="data/wordcloud.png",                    # 다운로드할 파일 경로
         file_name='image.png',        # 다운로드 파일명
         mime='image/png'              # 파일 형식
     )
