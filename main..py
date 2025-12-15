@@ -37,6 +37,19 @@ with open("data/naver_news_network.png", "rb") as file:
         mime='image/png'              # 파일 형식
     )
 
+st.image("data/naver_news_circle_network.png", use_container_width=True)
+
+# :blue[위젯]
+
+### : orange [다운로드 버튼: st.download_button()]
+with open("data/naver_news_circle_network.png", "rb") as file:
+    st.download_button(
+        label='이미지 파일 다운로드',  # 버튼 라벨
+        data="data/naver_news_circle_network.png",                    # 다운로드할 파일 경로
+        file_name='network_circle.png',        # 다운로드 파일명
+        mime='image/png'              # 파일 형식
+    )
+
 st.image("data/wordcloud.png", use_container_width=True)
 
 # :blue[위젯]
@@ -50,3 +63,15 @@ with open("data/wordcloud.png", "rb") as file:
         mime='image/png'              # 파일 형식
     )
 
+st.image("data/wordcloud.png", use_container_width=True)
+
+# :blue[위젯]
+
+### : orange [다운로드 버튼: st.download_button()]
+with open("data/wordcloud_square.png", "rb") as file:
+    st.download_button(
+        label='이미지 파일 다운로드',  # 버튼 라벨
+        data="data/wordcloud_square.png",                    # 다운로드할 파일 경로
+        file_name='cloud_square.png',        # 다운로드 파일명
+        mime='image/png'              # 파일 형식
+    )
